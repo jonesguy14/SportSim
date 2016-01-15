@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">SportSim</string>
+	<string name="team_prompt">Choose a team</string>
+	<string-array name="teams_array">
+        <item>Alabama</item>
+        <item>Auburn</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>LSU</item>
+    </string-array>
+</resources>

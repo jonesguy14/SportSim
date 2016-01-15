@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Choose your team:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chooseTeamText" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="31.0dp"
+        android:id="@+id/chooseTeamSpinner"
+        android:prompt="@string/team_prompt" />
+    <Button
+        android:text="Begin Season"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/beginSeasonButton" />
+</LinearLayout>

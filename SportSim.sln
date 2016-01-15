@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportSim", "SportSim\SportSim.csproj", "{7EB41559-C4FF-4F6C-996F-07426AF13825}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EB41559-C4FF-4F6C-996F-07426AF13825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB41559-C4FF-4F6C-996F-07426AF13825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB41559-C4FF-4F6C-996F-07426AF13825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB41559-C4FF-4F6C-996F-07426AF13825}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
