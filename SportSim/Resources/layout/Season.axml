@@ -5,10 +5,84 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-    <TextView
-        android:text="User Team Text"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+    <Button
+        android:text="Simulate Game"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/userTeamText" />
+        android:id="@+id/simGameButton" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+        <TextView
+            android:text="Examine team:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="200.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/examineTeamText"
+            android:layout_marginRight="0.0dp" />
+        <Spinner
+            android:layout_height="wrap_content"
+            android:id="@+id/examineTeamSpinner"
+            android:layout_width="192.0dp"
+            android:layout_toRightOf="@id/examineTeamText" />
+    </RelativeLayout>
+    <TextView
+        android:text="Current Team (W - L) "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentTeamText"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10sp">
+        <Button
+            android:text="Team Stats"
+            android:layout_width="115.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/teamStatsButton" />
+        <Button
+            android:text="Player Stats"
+            android:layout_width="115.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/playerStatsButton"
+            android:layout_toRightOf="@id/teamStatsButton" />
+        <Button
+            android:text="Team Schedule"
+            android:layout_width="115.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/teamScheduleButton"
+            android:layout_toRightOf="@id/playerStatsButton" />
+    </RelativeLayout>
+    <TextView
+        android:text="Team Stats / Player Stats / Team Sched"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTabDescription" />
+    <ScrollView
+        android:id="@+id/scrollerTextArea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+        <TextView
+            android:text="hahahahahahaha"
+            android:id="@+id/textAreaSeason"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+    </ScrollView>
 </LinearLayout>
